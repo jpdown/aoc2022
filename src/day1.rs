@@ -1,12 +1,12 @@
 pub fn part1() {
-    println!("Starting day part1");
-    let mut elves = get_elf_totals();
+    println!("Starting day1 part1");
+    let elves = get_elf_totals();
     println!("{}", elves[0]);
 }
 
 pub fn part2() {
-    println!("Starting day part1");
-    let mut elves = get_elf_totals();
+    println!("Starting day1 part1");
+    let elves = get_elf_totals();
     let mut top = 0;
 
     for i in 0..3 {
